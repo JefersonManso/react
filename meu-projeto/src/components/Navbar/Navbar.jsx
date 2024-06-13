@@ -1,6 +1,6 @@
 import React from "react";
 
-import logoImg from "../../assets/imagens/logo.png";
+import logoImg from "../../assets/imagens/logotranparente-kimassas1.png";  
 
 import "./styles.css";
 
@@ -10,22 +10,24 @@ class Navbar extends React.Component {
       <header>
         <nav id="navbar">
           <div className="nav-brand">
-            <img src={logoImg} alt="" />
-            <h1>Space Flight News</h1>
+            <img src={logoImg} alt="" />            
           </div>
 
           <ul className="nav-list">
             <li>
-              <a href="/">Trending</a>
+              <a href="/">Início</a>
             </li>
             <li>
-              <a href="/">Categories</a>
+              <a href="/">Cardápio</a>
             </li>
             <li>
-              <a href="/">About us</a>
+              <a href="/">Sobre nós</a>
             </li>
             <li>
-              <a href="/">Home</a>
+              <a href="/">Notícias</a>
+            </li>
+            <li>
+              <a href="/">Contato</a>
             </li>
           </ul>
         </nav>
