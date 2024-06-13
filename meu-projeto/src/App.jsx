@@ -1,7 +1,8 @@
 import React from "react";
 
 import "./styles/App.css";
-import Navbar from "./components/Navbar/Navbar";
+import { Navbar } from "./components/Navbar/Navbar";
+
 
 // Componente em classe é uma classe que herda a classe componente do React, e retorna HTML dentro do método render.
 
